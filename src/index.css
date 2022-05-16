@@ -14,5 +14,51 @@ code {
     monospace;
 }
 
+input {
+  box-shadow: 2px 2px 5px rgba(0, 172, 66, .3);
+  color: rgb(11, 116, 51);
+  border-color: rgba(0, 172, 66,.3);
+  border-radius: 6px;
+  font-size: 16px;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+input:focus {
+  box-shadow: 2px 2px 7px rgba(0, 172, 66, .7);
+  outline: none;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 172, 66, .3);
+  margin: 10px;
+  max-width: 250px;
+  padding: 10px ;
+}
+
+.card img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.card h4 {
+  margin: 5px 0px 5px 0px;
+}
+
+.text-shadow {
+  color: rgb(36, 35, 35);
+  text-decoration: dashed;
+  text-shadow: 2px 2px 5px rgba(0, 172, 66, .5);
+}
 
 
