@@ -9,7 +9,7 @@ export const GifExpertApp = () => {
 
     return ( 
     <div>
-        <h2>Gif Expert App</h2>
+        <h2 className="text-shadow">Gif Expert App</h2>
         <p>Ingrese una categoria para buscar Gifs</p>
         <AddCategory setCategories={ setCategories }/>
         <hr />
